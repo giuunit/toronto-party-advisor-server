@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorontoPartyAdvisor.Backend.WebApi", "TorontoPartyAdvisor.Backend.WebApi\TorontoPartyAdvisor.Backend.WebApi.csproj", "{D50773C3-3105-4F9A-A146-E441FF09CF33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorontoPartyAdvisor.Backend.WebApi.Tests", "TorontoPartyAdvisor.Backend.WebApi.Tests\TorontoPartyAdvisor.Backend.WebApi.Tests.csproj", "{DD46BEEF-FF91-4CAF-BB4C-A8342596EA96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorontoPartyAdvisor.Commands", "TorontoPartyAdvisor.Commands\TorontoPartyAdvisor.Commands.csproj", "{EB9F9845-DC7D-42B0-B93A-133194BD964B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorontoPartyAdvisor.Commands.Tests", "TorontoPartyAdvisor.Commands.Tests\TorontoPartyAdvisor.Commands.Tests.csproj", "{535E73D4-F05C-4C65-85F1-138761BAFC2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E1B51B5-D214-418C-8E08-93D756A69688}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorontoPartyAdvisor.Backend.Utility", "TorontoPartyAdvisor.Backend.Utility\TorontoPartyAdvisor.Backend.Utility.csproj", "{8C5FB3E5-6E2E-4FD8-847B-34FF65689C51}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gdo.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TorontoPartyAdvisor.Backend.WebApi.Tests\\TorontoPartyAdvisor.Backend.WebApi.Tests.csproj
+		SccProjectName1 = TorontoPartyAdvisor.Backend.WebApi.Tests
+		SccLocalPath1 = TorontoPartyAdvisor.Backend.WebApi.Tests
+		SccProjectUniqueName2 = TorontoPartyAdvisor.Backend.WebApi\\TorontoPartyAdvisor.Backend.WebApi.csproj
+		SccProjectName2 = TorontoPartyAdvisor.Backend.WebApi
+		SccLocalPath2 = TorontoPartyAdvisor.Backend.WebApi
+		SccProjectUniqueName3 = TorontoPartyAdvisor.Commands.Tests\\TorontoPartyAdvisor.Commands.Tests.csproj
+		SccProjectName3 = TorontoPartyAdvisor.Commands.Tests
+		SccLocalPath3 = TorontoPartyAdvisor.Commands.Tests
+		SccProjectUniqueName4 = TorontoPartyAdvisor.Commands\\TorontoPartyAdvisor.Commands.csproj
+		SccProjectName4 = TorontoPartyAdvisor.Commands
+		SccLocalPath4 = TorontoPartyAdvisor.Commands
+		SccProjectUniqueName5 = TorontoPartyAdvisor.Backend.Utility\\TorontoPartyAdvisor.Backend.Utility.csproj
+		SccProjectName5 = TorontoPartyAdvisor.Backend.Utility
+		SccLocalPath5 = TorontoPartyAdvisor.Backend.Utility
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D50773C3-3105-4F9A-A146-E441FF09CF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50773C3-3105-4F9A-A146-E441FF09CF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50773C3-3105-4F9A-A146-E441FF09CF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50773C3-3105-4F9A-A146-E441FF09CF33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD46BEEF-FF91-4CAF-BB4C-A8342596EA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD46BEEF-FF91-4CAF-BB4C-A8342596EA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD46BEEF-FF91-4CAF-BB4C-A8342596EA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD46BEEF-FF91-4CAF-BB4C-A8342596EA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB9F9845-DC7D-42B0-B93A-133194BD964B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB9F9845-DC7D-42B0-B93A-133194BD964B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB9F9845-DC7D-42B0-B93A-133194BD964B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB9F9845-DC7D-42B0-B93A-133194BD964B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535E73D4-F05C-4C65-85F1-138761BAFC2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535E73D4-F05C-4C65-85F1-138761BAFC2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535E73D4-F05C-4C65-85F1-138761BAFC2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535E73D4-F05C-4C65-85F1-138761BAFC2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5FB3E5-6E2E-4FD8-847B-34FF65689C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5FB3E5-6E2E-4FD8-847B-34FF65689C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5FB3E5-6E2E-4FD8-847B-34FF65689C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5FB3E5-6E2E-4FD8-847B-34FF65689C51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

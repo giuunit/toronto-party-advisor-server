@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="46a45e87f81a4c0baa27be895af5ff68" Name="Diagram1">
+        <EntityTypeShape EntityType="PartyAdvisorModel.Place" Width="1.5" PointX="9.125" PointY="0.5" />
+        <EntityTypeShape EntityType="PartyAdvisorModel.Position" Width="1.5" PointX="5" PointY="0.875" />
+        <EntityTypeShape EntityType="PartyAdvisorModel.User" Width="1.5" PointX="1" PointY="1.625" />
+        <AssociationConnector Association="PartyAdvisorModel.FK_Position_User" />
+        <EntityTypeShape EntityType="PartyAdvisorModel.PositionPlace" Width="1.5" PointX="7.5" PointY="5" />
+        <AssociationConnector Association="PartyAdvisorModel.FK_PositionPlace_Place" />
+        <AssociationConnector Association="PartyAdvisorModel.FK_PositionPlace_Position1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
